@@ -1,0 +1,22 @@
+[package]
+name = "test_thrussh_direct_tcpip"
+version = "0.1.0"
+edition = "2021"
+authors = ["Evgeny Duzhakov <diaevd@gmail.com>"]
+homepage = "https://github.com/diaevd/test_thrussh_direct_tcpip"
+documentation = "https://github.com/diaevd/test_thrussh_direct_tcpip"
+description = "Test thrussh direct-tcpip"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+publish = false
+
+[dependencies]
+color-eyre = "0.5.11"
+eyre = "0.6.5"
+futures = "0.3.19"
+thiserror = "1.0.30"
+thrussh = "0.33.5"
+thrussh-keys = "0.21.0"
+tokio = "1.15.0"
+tracing = "0.1.29"
+tracing-subscriber = { version = "0.3.1", features = [ "env-filter" ] }
